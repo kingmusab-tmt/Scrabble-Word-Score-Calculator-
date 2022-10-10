@@ -14,7 +14,7 @@ const score = (word) => {
   }
   // console.log(charInWord);
   
-  const countedcharInWord = charInWord.reduce((allcharInWord, name) => {
+  const countedcharInWord = charInWord.reduce((allcharInWord, name) => { 
   const currCount = allcharInWord[name] ?? 0;
   return {
     ...allcharInWord,
